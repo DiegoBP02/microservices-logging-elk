@@ -1,8 +1,11 @@
-# elk-stack-logging-example
-How to perform centralize logging in microservice architecture using ELK Stack
+# ELK Stack
+This project was created based on the tutorial from the YouTube video titled "Microservices Logging | ELK Stack | Elastic Search | Logstash | Kibana | JavaTechie", available at https://www.youtube.com/watch?v=5s9pR9UUtAU.
 
-###### Download ELK Binary Distrubution
+## Elasticsearch
+Elasticsearch is a NoSQL database that is based on the Lucene search engine which will help us to store inputs/logs.
 
-###### 1.Elastic Search [Download](https://www.elastic.co/downloads/elasticsearch).
-###### 2.Logstash [Download](https://www.elastic.co/downloads/kibana).
-###### 3.Kibana [Download](https://artifacts.elastic.co/downloads/logstash/logstash-7.6.2.zip).
+## Logstash
+Logstash is a log pipeline tool that accepts inputs/logs from various sources, & exports the data to various targets.
+
+## Kibana
+Kibana is a visualization UI layer, which will helps developer to monitor application logs.
